@@ -1,6 +1,6 @@
 FROM alpine
 
-ENV CONFIG=https://gist.githubusercontent.com/tlmoe/1b85d31d378bee0f0eac3a016e11fbdd/raw/431fbf231d0491b35e23ba1821d261cd94648514/config.json
+ENV CONFIG=https://gist.githubusercontent.com/xiaokanhongchen/abf2f52a223d915e01c017abbbef2354/raw/4a383f809bdd8c06c5bf8b9cbdaefada16dc6a00/config.json
 
 RUN apk update && apk --no-cache add ca-certificates unzip && \
     wget -c https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-64.zip && \
